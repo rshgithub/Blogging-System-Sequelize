@@ -10,6 +10,6 @@
     "outDir": "./dist",  // Redirects output structure to the specified directory
     "rootDir": "./src"  // Specifies the root directory of input files
   },
-  "include": ["src/**/*", "node_modules/**/*.d.ts"], // Specifies the files to include in compilation (all TypeScript files under src/)
+  "include": ["src/**/*", "tests/**/*", "types/supertest.d.ts","node_modules/**/*.d.ts"], // Specifies the files to include in compilation (all TypeScript files under src/)
   "exclude": ["node_modules"]  // Specifies the files to exclude from compilation (node_modules directory)
 }
