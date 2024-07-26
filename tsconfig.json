@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",  // Specifies the ECMAScript target version for compilation
+    "module": "commonjs",  // Specifies the module system for generated code (CommonJS in this case)
+    "strict": true,  // Enables all strict type-checking options
+    "esModuleInterop": true,  // Enables compatibility with CommonJS modules and ES modules interoperability
+    "skipLibCheck": true,  // Skip type checking of declaration files (*.d.ts) from libraries
+    "noImplicitAny": true,  // Disallows implicit 'any' types
+    "forceConsistentCasingInFileNames": true,  // Ensures consistent casing in file names
+    "outDir": "./dist",  // Redirects output structure to the specified directory
+    "rootDir": "./src"  // Specifies the root directory of input files
+  },
+  "include": ["src/**/*", "node_modules/**/*.d.ts"], // Specifies the files to include in compilation (all TypeScript files under src/)
+  "exclude": ["node_modules"]  // Specifies the files to exclude from compilation (node_modules directory)
+}
